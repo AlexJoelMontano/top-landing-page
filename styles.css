@@ -78,7 +78,7 @@
     border:2px solid burlywood;
     margin-right: 15%;
     flex:1 0 auto;
-    margin-left: -55px;
+    margin-left: -5%;
     margin-top: 75px;
     margin-bottom: 75px;
 }
@@ -93,10 +93,19 @@
     text-align: justify;
 }
 .signup{
-    width:80px;
+    width:100px;
     height: auto;
     margin-bottom: 20px;
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
-
+}
+button {
+    background-color: #3882F6;
+    color:azure;
+    border:2px outset rgb(127, 154, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-radius: 12%;
+    font-size: 12pt;
 }
