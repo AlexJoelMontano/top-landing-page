@@ -2,33 +2,56 @@
     display: flex;
     flex-direction: column;
     align-items:stretch;
-    align-content: space-around;
 }
 .top-page{
     display: flex;
-    border:2px solid purple;
     background-color: #1f2937;
 }
 .container{
-    border:2px solid maroon;
 }
 .quote-container {
-    border:2px solid teal;
+    background-color:#E5E7EB;
+}
+.quote {
+    padding-left: 75px;
+    padding-right: auto;
+    width:55%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.author{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:150px;
+    margin-right:20%;
+    margin-left:60%;
+    margin-top:-40px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 13pt;
 }
 .signup-container{
-    border:2px solid forestgreen;
 }
 .footer {
-    border:2px solid red;
+    background-color: #1f2937;
+    color: #b8b9bb;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
 }
 .header {
-    border:2px solid fuchsia;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .logo{
-    border:2px solid lime;
     display: flex;
     justify-content: space-around;
     margin-left: 13%;
@@ -37,13 +60,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .head-links {
-    border:2px solid peachpuff;
     display: flex;
     justify-content: space-around;
     margin-right: 15%;
 }
 .links {
-    border:1px solid blue;
     padding:8px;
     margin-left: auto;
     margin-right: auto;
@@ -57,11 +78,9 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    border:2px solid firebrick;
     width: 300px;
 }
 .title-container {
-    border:1px solid pink;
     display: flex;
     flex-direction: row;
 }
@@ -70,7 +89,7 @@
     border:2px solid royalblue;
     margin-left: 20%;
     margin-right:15%;
-    font-size: 48pt;
+    font-size: 48px;
     font-weight:bolder;
     color:#F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +105,7 @@
     margin-bottom: 75px;
 }
 .info-container {
-    border:2px solid blueviolet;
+
     flex:2 1 auto;
 }
 .subtext{
@@ -95,28 +114,54 @@
     margin-right: 15%;
     text-align: justify;
 }
-.signup{
+.signup-top{
     width:100px;
     height: auto;
     margin-bottom: 20px;
     margin-left: 20%;
     margin-right: auto;
+    margin-bottom: 60px;
+}
+.signup{
+    width:100px;
+    height:auto;
+    margin-right: 6%;
+}
+.signup-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 140px;
+    background-color: #3882F6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+
+}
+.signup-section{
+    color:Azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    height:60px;
+    width: 60%;
+    text-align: center;
+    
 }
 button {
     background-color: #3882F6;
     color:azure;
-    border:2px outset rgb(127, 154, 206);
+    border:2px outset rgb(230, 235, 244);
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.2s ease;
     cursor: pointer;
     border-radius: 12%;
     font-size: 12pt;
 }
-.container {
-    border:2px solid salmon;
-}
 .content-container {
-    border: 2px solid orangered;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -127,18 +172,17 @@ button {
     width: 150px;
     height: 200px;
     border: 4px solid #0d56cc;
-    border-radius:22%;
+    border-radius:12%;
     align-items: center;
     text-align: center;
+    margin-bottom: 100px;
 }
 .subheading {
     text-align: center;
-    border: 2px solid rebeccapurple;
-    font-size: 36pt;
+    font-size: 36px;
     font-weight: bolder;
     margin:20px;
     color:#1f2937;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
-
 }
