@@ -243,6 +243,7 @@ span#cont-head.content-heading:hover {
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
     background-color: transparent;
+    cursor: pointer;
     width: 180px;
     height: 180px;
     border: 4px outset lightgray;
@@ -282,9 +283,22 @@ span#cont-head.content-heading:hover {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #1f2937ab;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px black;
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, rgba(34,34,34,0.7948815979933376) 0%, rgba(137, 137, 137, 0.815) 46%, rgba(45,45,45,0.8177242375872462) 100%); ; 
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
     transform: rotateY(180deg);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   } 
+  h4.card-head {
+
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14pt;
+    font-weight: 600;
+  }
+  p.card-label {
+    padding:5px;
+    font-size: 12pt;
+  }
