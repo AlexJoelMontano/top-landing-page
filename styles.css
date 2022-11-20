@@ -13,12 +13,11 @@
 }
 .quote {
     padding-top: 5%;
-    padding-left: 75px;
+    padding-left: auto;
     padding-right: auto;
     width:55%;
     height:auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline:auto;
     margin-top: 90px;
     color:#1f2937;
     font-size: 36px;
@@ -52,8 +51,8 @@
 .logo{
     display: flex;
     justify-content: space-around;
-    margin-left: 13%;
-    font-size: 24px;
+    margin-inline: auto;
+    font-size: 30px;
     color:#F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
     cursor: default;
@@ -73,13 +72,13 @@
 .head-links {
     display: flex;
     justify-content: space-around;
-    margin-right: 15%;
+    margin-inline: auto;
 }
 .links {
     padding:6px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 20px;
     color:#e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -88,42 +87,36 @@
 }
 .links:hover {
     color:lightskyblue;
-    font-size: 19px;
+    font-size: 21px;
 }
 .head-list{
     display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    min-width: 300px;
 }
 .title-container {
     display: flex;
     flex-direction: row;
-    width:100%;
+    align-items: center;
+
+
 
 }
 .title {
     margin-top: 100px;
-    margin-left: 20%;
-    margin-right:15%;
-    font-size: 48px;
+    margin-inline: 13%;
+    font-size: 50px;
     font-weight:bolder;
     color:#F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    min-width: fit-content;
-    min-inline-size: 520px;
+
 
 }
 .title-img {
-    display: flex;
-    margin-right: 15%;
-    flex:1 0 auto;
-    margin-left: -5%;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    flex-wrap: wrap;
+    margin-right:9%;
 }
 .info-container {
 
@@ -131,8 +124,7 @@
 }
 .subtext{
     color:#f9faf8d7;
-    margin-left: 20%;
-    margin-right: 15%;
+    margin-inline: 13%;
     text-align: justify;
     
 }
@@ -147,9 +139,11 @@
 .imgtitle{
     border:4px outset burlywood;
     border-radius: 10px;
-    position: relative;
-    min-block-size: 300px;
+    max-width: 100%;
+    height: auto;
 }
+
+} 
 .signup{
     width:100px;
     height:auto;
@@ -161,7 +155,9 @@
     align-items: center;
     justify-content: space-around;
     width: 60%;
-    height: 140px;
+    min-height: 140px;
+    max-width: 100%;
+    height: auto;
     background-color: #3882F6;
     margin-left: auto;
     margin-right: auto;
@@ -176,6 +172,8 @@
     font-size: 14pt;
     height:60px;
     width: 60%;
+    max-width: 100%;
+    height: auto;
     text-align: center;
     
 }
@@ -199,8 +197,11 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     width:70%;
-    min-width: 880px;
+    min-width:max-content;
     margin:auto;
+    max-width: 100%;
+    height: auto;
+
 }
 .content {
     width: 200px;
@@ -245,7 +246,9 @@ span#cont-head.content-heading:hover {
     background-color: transparent;
     cursor: pointer;
     width: 180px;
-    height: 180px;
+    min-height: 180px;
+    max-width: 100%;
+    height: auto;
     border: 4px outset lightgray;
     border-radius: 10px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
