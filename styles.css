@@ -8,11 +8,11 @@
     background-color: #1f2937;
 }
 .quote-container {
+    display: flex;
     background-color:#E5E7EB;
-    height: 360px;
+    height: auto;
 }
 .quote {
-    padding-top: 5%;
     padding-left: auto;
     padding-right: auto;
     width:55%;
@@ -94,7 +94,7 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    min-width: 300px;
+    flex-wrap: wrap;
 }
 .title-container {
     display: flex;
@@ -132,7 +132,7 @@
     width:100px;
     height: auto;
     margin-bottom: 20px;
-    margin-left: 20%;
+    margin-left: 13%;
     margin-right: auto;
     margin-bottom: 60px;
 }
@@ -201,6 +201,7 @@ button:hover {
     margin:auto;
     max-width: 100%;
     height: auto;
+    margin-bottom: 100px;
 
 }
 .content {
